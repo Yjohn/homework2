@@ -18,11 +18,17 @@ h3{
 /*the main page  */
 #wrapper{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
   margin: auto;
   padding: 0px 10px;
   }
+#flex {
+
+  display: flex;
+  flex-direction: row;
+}
+
 #main-title{
   width: 75%;
 }
@@ -30,7 +36,7 @@ h3{
 .jumbotron{
 margin-bottom: 2rem;
 }
-.container1{
+.container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,20 +95,39 @@ img{
   padding: 15px 5px;
 }
 
-@media screen and (max-width: 620px){
-        #main-title{
-  width: 100%;
-}
+@media screen and (max-width: 820px){
+            #flex {
+                flex-direction: column;
+              }
+              
+            #main-title{
+                width: 100%;
+              }
+            .jumbotron  {
+                width: 100%;
+              }
 	           .sidebar-content{
                 width: 100%;
               }
-              .container1{
+              .container{
                 width: 100%;
               }
               .article{
                 width: 50%;
               }
 	}
+@media screen and (max-width: 320px){
+              #main-title{
+                width: 100%;
+              }
+              .container{
+                width: 100px;
+              }
+              .article{
+                width: 60%;
+              }
+          }
+
 footer{
   border-top: 1px solid purple;
   text-align: center;
