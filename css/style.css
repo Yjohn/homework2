@@ -96,13 +96,18 @@ img{
   max-width: 100%;
  
 }
-@media screen and (min-width: 800px){
-  .jumbotron{
-      font-size: 2rem;
-  }
-}
 
-
+@media screen and (max-width: 330px){
+	           .sidebar-content{
+                width: 100%;
+              }
+              .container1{
+                width: 100%;
+              }
+              .article{
+                width: 50%;
+              }
+	}
 footer{
   border-top: 1px solid purple;
   text-align: center;
