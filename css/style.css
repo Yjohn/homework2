@@ -2,9 +2,9 @@
  body{
     background: url(http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_dh8LV2F.jpg)
    }
-*{
+/**{
   border: 1px solid black;
-}
+}*/
 header{
   border-bottom: 2px solid grey;
 }
