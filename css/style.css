@@ -89,7 +89,7 @@ img{
   padding: 15px 5px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 620px){
         #main-title{
   width: 100%;
 }
