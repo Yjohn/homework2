@@ -92,50 +92,6 @@ img{
 .contact{
   padding: 15px 5px;
 }
-
-
-/*@media screen and (max-width: 480px){
-              #flex {
-                flex-direction: row;
-              }
-              
-            #main-title{
-                width: 100%;
-                display: flex;
-              }
-            .jumbotron  {
-                width: 100%;
-              }
-              .container{
-              display: flex;
-              flex-direction: row;
-              justify-content: flex-start;
-              width: 100%
-              }
-              .article{
-                display: flex;
-              flex-direction: row;
-              justify-content: flex-start;
-                width: 50%;
-              }
-          }
-/*@media screen and (max-width: 720px){
-              #main-title{
-                width: 100%;
-              }
-              .container{
-              display: flex;
-              flex-direction: column;
-              justify-content: flex-start;
-              width: 100%
-              }
-              .article{
-                display: flex;
-              flex-direction: column;
-              justify-content: center;
-                width: 40%;
-              }
-          }*/
 @media screen and (max-width: 720px){
 
     /* ADDED FLEX TO MEDIA QUERY */
@@ -159,6 +115,7 @@ img{
               .art{
                 display: flex;
                 flex-direction: column;
+                justify-content: flex-start;
                 width: 100%;
               }
 	}
