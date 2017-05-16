@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>homework2</title>
   <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,7 +23,8 @@
           <h1>JOHN CAR IMPORTER</h1>
           <p>We specialise in sourcing, purchasing, transporting, and shipping new and used cars and other types of vehicles
             from the UK, for exporting to Private Clients, International Car Dealers, Governments, and Commercial Organisations
-            worldwide.</p>
+            worldwide.
+          </p>
 
           <article class="main">
             <div class="article-title">
@@ -144,23 +149,88 @@
             <div class="title-sidebar">
               <img src="https://thumbs.dreamstime.com/z/contact-us-icon-white-background-29710783.jpg" width="100px" />
               <h4>Contact Us</h4>
-              <p>John car Export UK, LLC</br> Office and Mailing Address: </br>
-                1200 Govan Road, G51 4RB</br>Glasgow, United Kingdome </br>
-                Contact adreess</br>00447404808232</br>Email: yfekadu2016@gmail.com</br>johncar@exporter.ac.uk</br>
-                Business Hours:</br>(9:00 am - 5:00 pm )
+              <p>John car Export UK, LLC<br> Office and Mailing Address: <br> 1200 Govan Road, G51 4RB<br>Glasgow, United Kingdome
+                <br> Contact adreess<br>00447404808232<br>Email: yfekadu2016@gmail.com<br>johncar@exporter.ac.uk<br> Business
+                Hours:
+                <br>(9:00 am - 5:00 pm )
               </p>
             </div>
           </article>
         </div>
       </div>
     </div>
-    <!end of fleex div -->
-
+    <!--end of fleex div -- >
+ 
+<form action="/signup" method="POST">
+  <p>
+    <label>Title</label>
+    <label>
+      <input type="radio" name="title" value="mr">
+      Mr
+    </label>
+    <label>
+      <input type="radio" name="title" value="mrs">
+      Mrs
+    </label>
+    <label>
+      <input type="radio" name="title" value="miss">
+      Miss
+    </label>
+  </p>
+  <p>
+    <label>First name</label>
+    <input type="text" value="first_name">
+  </p>
+  <p>
+    <label>Last name</label>
+    <input type="text" value="last_name">
+  </p>
+  <p>
+    <label>Email</label>
+    <input type="email" value="email">
+  </p>
+  <p>
+    <label>Phone number</label>
+    <input type="tel" value="phone">
+  </p>
+  <p>
+    <label>Password</label>
+    <input type="password" value="password">
+  </p>
+  <p>
+    <label>Confirm your password</label>
+    <input type="password" value="password_confirm">
+  </p>
+  <p>
+    <label>Country</label>
+    <select>
+      <option>Canada</option>
+      <option>France</option>
+      <option>Germany</option>
+      <option>Italy</option>
+      <option>Japan</option>
+      <option>Russia</option>
+      <option>United Kingdom</option>
+      <option>United States</option>
+    </select>
+  </p>
+  <p>
+    <label>
+      <input type="text" value="message">
+      Write your comment here
+    </label>
+  </p>
+  <p>
+    <button>
+      Submit
+    </button>
+  </p>
+</form>   
     <footer>
       <p> Copyright 2017 @ Yohannes</p>
     </footer>
-  </div>
-  <!-- end of wrapper -->
+</div>
+
 </body>
 
 </html>
