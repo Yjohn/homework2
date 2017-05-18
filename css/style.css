@@ -89,6 +89,10 @@ img{
 .contact{
   padding: 15px 5px;
 }
+.textarea{
+    padding:4px;
+    border: 1px solid black;
+}
 @media screen and (min-width: 720px) {
 
     /* ADDED FLEX TO MEDIA QUERY */
